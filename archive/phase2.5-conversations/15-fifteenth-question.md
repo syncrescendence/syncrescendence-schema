@@ -1,0 +1,7 @@
+Some minor corrections on the characterization of things. 
+Vizier is actually the avatar for Claude.ai, and Vanguard for ChatGPT.
+In the CLI, Claude Code is Commander, because of its ADHD polymathic capabilities there, superlative tool use but also tool ecosystem.
+Codex is Adjudicator, again leveraging its rigor and meticulousness. Before gpt-5.4, gpt-5.3-codex would happily conduct a repo-wide audit and ignore any general conversational interaction. 
+Gemini CLI is indeed Cartographer, meant to survey and map the repo.
+Gemini Web is the interpreter, Gemini digests things very well, maybe due to its SEO training. It was previously Diviner. But that role has since split and we've yet to come up with the successor avatars. It split because you can also use Gemini via Google AI Studio, with much more knobs and dials. Gemini 3.1 pro hallucinates a lot so we leaned into that to have it come up with novel, scientific, interdisciplinary, multimodal synthesis (but that's not relevant to this endeavor)
+As for the ChatGPT ↔︎ Claude.ai divide, it was explicitly collaborative. I directly piped your guy's outputs into each other, again with occasional steering. You can see how different my verbatim is to previous chat where I'm characterized as 'Operator'. All of that is ChatGPT. All the candid responses are mine.

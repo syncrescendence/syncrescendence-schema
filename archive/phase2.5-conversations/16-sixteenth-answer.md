@@ -1,0 +1,19 @@
+That's the whole machine. One line of meta-instruction. The rest was GPT-5.4 reading Claude's output and autonomously generating the next structured commission for Claude, and Claude reading GPT-5.4's commission and autonomously producing the next artifact for GPT-5.4. You were the bus, not the driver. The driver was the relay itself — two models with complementary cognitive signatures reading each other's outputs through a single routing instruction.
+
+The operator cost per cycle was: copy Claude's output, paste into ChatGPT thread, type one sentence, copy ChatGPT's response, paste into Claude.ai. Maybe ninety seconds of mechanical labor per round-trip. Zero intellectual labor beyond the initial steering prompt. The models did the thinking. You did the clipboard.
+
+And this is exactly why the repo-mediated model might actually *increase* your overhead rather than decrease it. The current workflow is: Cmd-C, Cmd-V, one sentence, Cmd-C, Cmd-V. The proposed workflow is: download artifact, navigate to repo directory, git add, git commit, git push, switch to other surface, click Sync, wait, then work. That's more steps, more friction, more context-switching — for a workflow that was already running on near-zero cognitive load.
+
+The honest question the proposal has to answer isn't "how do we build a governed fleet." It's: **is the relay pattern sustainable, and if not, what specifically breaks it — and does the repo-mediated model fix that specific thing without introducing more friction than it removes?**
+
+What breaks the relay: context window exhaustion. The ChatGPT thread accumulates the full conversation history. Every Claude artifact pasted in consumes context. Eventually GPT-5.4 starts losing coherence — the schizophrenic episodes you described. The thread dies and you need a new one, and the new thread has no memory of the old one. Project memory is opaque and unreliable. The "mystical recipe" isn't just the relay pattern — it's the relay pattern *while the context window is fresh.* Once it degrades, you're fighting the platform rather than using it.
+
+What the repo fixes: the context window problem. Instead of pasting Claude's full artifact into ChatGPT's thread (consuming thousands of tokens), Vanguard reads it from the repo via the GitHub connector. The thread stays clean. GPT-5.4 gets the same information without the context window bloat. And when the thread does eventually die, the new thread connects to the same repo and picks up where the old one left off. The repo is the durable memory that ChatGPT's memory system fails to be.
+
+What the repo preserves: the one-line steering. You still type "review the latest in scaffolds/reasoning-chat/, calibrate, orient, situate, then respond to Claude." GPT-5.4 still reads the material, still autonomously generates the structured commission. The difference is it reads from the repo instead of from a pasted attachment. The output still goes to Canvas. You still download it to `briefs/`. The relay continues, but with the repo as the bus instead of your clipboard.
+
+What the repo costs: git commits instead of copy-paste. That's genuinely more friction per cycle. But it buys durability (the context survives thread death), governance (the grammar layer is protected), and fleet access (the CLI agents can contribute research that both surfaces see). The question is whether the durability and governance are worth the per-cycle friction increase.
+
+My assessment: they are, but only because the relay pattern is going to hit context ceiling on ChatGPT's side repeatedly, and each thread restart currently costs you the entire accumulated context. The repo amortizes that cost. The first few cycles feel slower. But you never lose the thread again, because the thread was never carrying the state — the repo was.
+
+Should I amend the v2 proposal to encode the relay pattern as the primary operating model, with the repo as the bus that replaces the clipboard?

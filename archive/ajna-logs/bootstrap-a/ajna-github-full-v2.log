@@ -1,0 +1,3 @@
+[35m[plugins][39m [31mdiffs failed to load from /opt/homebrew/lib/node_modules/openclaw/extensions/diffs/index.ts: Error: Cannot find module '@pierre/diffs'[39m
+[31mRequire stack:[39m
+[31m- /opt/homebrew/lib/node_modules/openclaw/extensions/diffs/src/render.ts[39m

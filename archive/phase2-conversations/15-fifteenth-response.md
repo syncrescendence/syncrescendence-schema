@@ -1,0 +1,31 @@
+## Part 1 — Bounded Review of Refreshed SCAFFOLD-SAAS-LAYER.md**Review result: SOUND.** No blocking defect. No bounded repair needed.
+
+The convergent zone is honestly earned: all 22 primitives identify structural roles (questions every surface must answer) rather than feature-name overlap. The raised threshold (8+/14) is consistently applied, presence counts documented per-primitive, and Obsidian's outlier status on cloud-hosted/permission/API primitives is handled correctly (noted as the exception rather than excluded from the question). The divergent zone covers 14/14 surfaces at the correct grain — architectural commitments, not marketing differentiators. The synthesis zone's 8 observations all cite multiple surfaces and produce structural insights not derivable from any single scaffold. The two new observations (methodology-encoding-as-moat from 5/14 surfaces, local-first-as-counter-paradigm from Obsidian's proof-by-inversion) are genuinely emergent from the expanded class.
+
+**SCAFFOLD-SAAS-LAYER.md (14-surface) is accepted.** What changes in force: the prior 8-surface version is now pedigree only, carrying no authority. The 14-surface version is the sole authoritative SaaS layer scaffold. Cross-entity synthesis method reaches Level 1 in force (two successful invocations, both operator-reviewed). The SaaS class remains below MATURE (layer scaffold accepted, derived specification still required).
+
+Now producing the specification-production capability and first SaaS specification.Now invoking the method. The strongest first SaaS specification is a teleological selection manual. It prescribes which surfaces to deploy for which institutional purposes, drawing directly on the layer scaffold's paradigm families, anti-role declarations, power-ceiling analysis, methodology-encoding patterns, and lock-in taxonomy. This is higher-leverage than an adapter contract (which covers only a surface pair) or a governance protocol (which covers only entropy prevention) because it addresses the class-level selection question that every operator must answer before any other SaaS decision matters.Now building the handoff.## Production Summary
+
+Three tasks executed in this turn. The institution's descriptive-to-prescriptive transition is now in progress.
+
+**Task 1 — Review and acceptance of SCAFFOLD-SAAS-LAYER.md (14-surface).** Reviewed against twelve-check schema with layer-scaffold species instantiation. All checks pass. No bounded defect. Convergent zone honestly earned at 8+/14 threshold. Divergent zone covers 14/14 at correct structural grain. Synthesis zone's 8 observations genuinely emergent. **Accepted.** The prior 8-surface version is pedigree only. Cross-entity synthesis method reaches Level 1 in force.
+
+**Task 2 — Specification-production capability creation.** DRAFT-METHOD-SPECIFICATION-PRODUCTION.md establishes a bounded working procedure for extracting prescription from accepted descriptive scaffolds. It defines three specification types (teleological manual, adapter contract, governance protocol), specifies input requirements and validation criteria, and governs method-level advancement. The procedure is explicitly not grammar-layer canon — it is a governed working document sufficient for REVIEW-governed invocations, subject to refinement or formalization into METHOD-ENGINE.md if the operator later commissions a grammar-layer amendment.
+
+**Task 3 — First SaaS specification.** SPEC-SAAS-TELEOLOGICAL-SELECTION.md is a teleological selection manual prescribing which SaaS surfaces to deploy for which institutional purposes. Six prescriptive sections, each tracing to identified scaffold primitives:
+
+The **paradigm-family selection** (§2) is the first-order filter: identify which of the four families (stream, document, tracker, community/broadcast) the institution needs, then select one surface per required family. Within each family, surface selection heuristics prescribe the specific surface based on the constraint set that dominates (compliance → Jira, velocity → Linear, sovereignty → Obsidian, capture speed → Todoist, etc.).
+
+The **lock-in profile** (§3) prescribes matching institutional risk tolerance to the three-type lock-in taxonomy (data, structural, ecosystem). Low tolerance → Obsidian, Todoist, Basecamp. High tolerance → Jira, Airtable, Coda.
+
+The **coherent stack patterns** (§4) name five structurally justified surface combinations: the Atlassian Triad (Slack + Jira + Confluence), the Velocity Stack (Slack + Linear + Notion), the Sovereign Stack (Obsidian + Todoist/TickTick + Telegram), the Converged Alternative (ClickUp ± Slack), and the Community Stack (Discord + Notion/Obsidian). Each pattern is justified by paradigm-family complementarity and anti-role coverage.
+
+The **methodology-encoding rule** (§5) prescribes that if the institution adopts a methodology (Shape Up, Linear Method, GTD, time-blocking, Scrum/Kanban), the corresponding surface is the structurally correct choice — and warns that adopting the surface without the methodology creates friction.
+
+The **entropy governance rule** (§6) prescribes matching surface flexibility to institutional governance capacity — opinionated surfaces for low-governance-capacity institutions, flexible surfaces for high-governance-capacity institutions.
+
+Every prescription in the specification traces to identified primitives or synthesis observations in the accepted scaffolds. The specification passes its own validation criteria (upstream traceability, actionability, scope boundary, descriptive-prescriptive boundary, falsifiability).
+
+The specification-production method advances from untested to tested-once. If the specification passes operator review, the SaaS class reaches MATURE per LAYER-LAW.md (layer scaffold + derived specification), and the method advances to Level 1.
+
+The TOOL-ECOSYSTEM bridge condition remains active and unchanged. Recommendation: accept the specification if sound, then open a new modality class (reasoning/chat surfaces) to expand institutional coverage using proven methods.

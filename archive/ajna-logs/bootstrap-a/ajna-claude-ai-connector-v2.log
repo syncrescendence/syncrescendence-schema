@@ -1,0 +1,24 @@
+Browser tool still unavailable. Pivoting to playwright-mcp skill.
+Browser automation unavailable via both paths (OpenClaw browser tool timed out; playwright-mcp requires separate server start).
+
+**Manual execution required:**
+
+1. Open Vivaldi and go to `https://claude.ai/projects`
+2. Find project **Schema-3** (or current active project)
+3. Click into the project
+4. Navigate to **Project Knowledge** tab
+5. Click the **+** button
+6. Select **Add from GitHub**
+7. If prompted, authenticate with GitHub
+8. Select repository: `truongphillipthanh-icloud/syncrescendence-schema`
+9. Check these items:
+   - `grammar/` (all files)
+   - `scaffolds/` (all files)
+   - `specifications/` (all files)
+   - `dossiers/` (all files)
+   - `briefs/` (all files)
+   - `HANDOFF-CURRENT.md`
+   - `PROTOCOL.md`
+10. Confirm and sync
+
+Report back what happens at each step where you need intervention.

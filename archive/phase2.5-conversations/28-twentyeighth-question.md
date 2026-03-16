@@ -1,0 +1,1 @@
+Build the prompt for a completely stateless Claude Code. i will point it directly at the folder.

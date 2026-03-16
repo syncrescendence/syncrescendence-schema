@@ -1,0 +1,1 @@
+Produce instead a followup to Vanguard elucidating these particulars to clarify a path forward.

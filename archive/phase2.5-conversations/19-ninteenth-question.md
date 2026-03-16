@@ -1,0 +1,1 @@
+One question, then yes, synthesize, do we just make our own MCP (for the chat apps)?

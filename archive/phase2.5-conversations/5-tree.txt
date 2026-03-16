@@ -1,0 +1,304 @@
+.
+├── _
+│   ├── 1-KNOWLEDGE-ARCHITECTURE-ROOT.md
+│   ├── 2-LAYER-LAW.md
+│   ├── 3-ARTIFACT-GRAMMAR.md
+│   ├── 4-NAMING-AND-ADDRESSING.md
+│   ├── 5-SCAFFOLD-GRAMMAR.md
+│   ├── 6-DELTA-METABOLISM.md
+│   ├── 7-METHOD-ENGINE.md
+│   ├── 8-READINESS-MATRIX.md
+│   ├── 9-AUTHORITY-LATTICE.md
+│   └── federated-architecture-schema-instructions.md
+├── 01-CAPABILITIES.md
+├── 01-first-prompt.md
+├── 01-first-response.md
+├── 01-HANDOFF-CURRENT.md
+├── 01-PHASE-2-ACTIVATION.md
+├── 01-SCAFFOLD-SLACK.md
+├── 02-HANDOFF-CURRENT.md
+├── 02-SCAFFOLD-SLACK.md
+├── 02-second-prompt.md
+├── 02-second-response.md
+├── 03-HANDOFF-CURRENT.md
+├── 03-HARNESS-CONFIG.md
+├── 03-SCAFFOLD-JIRA.md
+├── 03-SCAFFOLD-NOTION.md
+├── 03-third-prompt.md
+├── 03-third-response.md
+├── 03-TOOL-ECOSYSTEM.md
+├── 04-fourth-prompt.md
+├── 04-fourth-response.md
+├── 04-HANDOFF-CURRENT.md
+├── 04-TOOL-ECOSYSTEM.md
+├── 05-fifth-prompt.md
+├── 05-fifth-response.md
+├── 05-HANDOFF-CURRENT.md
+├── 06-DRAFT-STAGE-A2-COMMISSION.md
+├── 06-HANDOFF-CURRENT.md
+├── 06-sixth-prompt.md
+├── 06-sixth-response.md
+├── 07-DRAFT-ACT-1-TRANCHE-TWO-ACCEPTANCE.md
+├── 07-DRAFT-ACT-2-METHOD-LEVEL-2-CONFIRMATION.md
+├── 07-DRAFT-STAGE-A2-COMMISSION.md
+├── 07-HANDOFF-CURRENT.md
+├── 07-seventh-prompt.md
+├── 07-seventh-response.md
+├── 08-eighth-prompt.md
+├── 08-eighth-response.md
+├── 08-HANDOFF-CURRENT.md
+├── 09-ninth-prompt.md
+├── 09-ninth-response.md
+├── 10-HANDOFF-CURRENT.md
+├── 10-SCAFFOLD-AIRTABLE.md
+├── 10-SCAFFOLD-CLICKUP.md
+├── 10-SCAFFOLD-CODA.md
+├── 10-SCAFFOLD-CONFLUENCE.md
+├── 10-SCAFFOLD-LINEAR.md
+├── 10-tenth-prompt.md
+├── 10-tenth-response.md
+├── 11-eleventh-prompt.md
+├── 11-eleventh-response.md
+├── 11-HANDOFF-CURRENT.md
+├── 11-harness-taxonomy.md
+├── 12-HANDOFF-CURRENT.md
+├── 12-SCAFFOLD-SAAS-LAYER.md
+├── 12-twelfth-prompt.md
+├── 12-twelfth-response.md
+├── 13-HANDOFF-CURRENT.md
+├── 13-SCAFFOLD-BASECAMP.md
+├── 13-SCAFFOLD-DISCORD.md
+├── 13-SCAFFOLD-OBSIDIAN.md
+├── 13-SCAFFOLD-TELEGRAM.md
+├── 13-SCAFFOLD-TICKTICK.md
+├── 13-SCAFFOLD-TODOIST.md
+├── 13-thirteenth-prompt.md
+├── 13-thirteenth-response.md
+├── 14-fourteenth-prompt.md
+├── 14-fourteenth-response.md
+├── 14-HANDOFF-CURRENT.md
+├── 14-SCAFFOLD-SAAS-LAYER.md
+├── 15-DRAFT-METHOD-SPECIFICATION-PRODUCTION.md
+├── 15-fifteenth-prompt.md
+├── 15-fifteenth-response.md
+├── 15-HANDOFF-CURRENT.md
+├── 15-SCAFFOLD-SAAS-LAYER.md
+├── 15-SPEC-SAAS-TELEOLOGICAL-SELECTION.md
+├── 16-HANDOFF-CURRENT.md
+├── 16-SCAFFOLD-CHATGPT.md
+├── 16-SCAFFOLD-CLAUDE-CHAT.md
+├── 16-SCAFFOLD-GEMINI-CHAT.md
+├── 16-SCAFFOLD-GROK.md
+├── 16-sixteenth-prompt.md
+├── 16-sixteenth-response.md
+├── 17-HANDOFF-CURRENT.md
+├── 17-SCAFFOLD-REASONING-CHAT-LAYER.md
+├── 17-seventeenth-prompt.md
+├── 17-seventeenth-response.md
+├── 18-eighteenth-prompt.md
+├── 18-eighteenth-response.md
+├── 18-HANDOFF-CURRENT.md
+├── 18-SPEC-REASONING-CHAT-TELEOLOGICAL-SELECTION.md
+├── 19-HANDOFF-CURRENT.md
+├── 19-nineteenth-prompt.md
+├── 19-nineteenth-response.md
+├── 19-SPEC-REASONING-CHAT-TELEOLOGICAL-SELECTION.md
+├── 20-DAEMON-RUNTIME-CLASS-OPENING.md
+├── 20-HANDOFF-CURRENT.md
+├── 20-twentieth-prompt.md
+├── 20-twentieth-response.md
+├── 21-DOSSIER-CLAUDE-COWORK.md
+├── 21-HANDOFF-CURRENT.md
+├── 21-SCAFFOLD-OPENCLAW.md
+├── 21-twentyfirst-prompt.md
+├── 21-twentyfirst-response.md
+├── init.md
+├── phase1
+│   ├── 0-initial-response.md
+│   ├── 1-first-answer.md
+│   ├── 10-HANDOFF-CURRENT.md
+│   ├── 10-PREBUILD-MEMO-1-TERMINOLOGY-RECONCILIATION.md
+│   ├── 10-tenth-answer.md
+│   ├── 10-tenth-question.md
+│   ├── 11-CONSTRUCTION-BRIEF-ROOT-SCHEMA.md
+│   ├── 11-eleventh-answer.md
+│   ├── 11-eleventh-question.md
+│   ├── 11-HANDOFF-CURRENT-1:2.md
+│   ├── 11-HANDOFF-CURRENT-2:2.md
+│   ├── 11-KNOWLEDGE-ARCHITECTURE-ROOT.md
+│   ├── 11-PREBUILD-MEMO-2-ENVIRONMENTAL-PHYSICS.md
+│   ├── 11-PREBUILD-MEMO-3-REASONING-SURFACES.md
+│   ├── 11-PREBUILD-MEMO-4-RUNTIME-MODALITY.md
+│   ├── 12-CONSTRUCTION-BRIEF-LAYER-LAW.md
+│   ├── 12-HANDOFF-CURRENT 2.md
+│   ├── 12-LAYER-LAW.md
+│   ├── 12-twelfth-answer.md
+│   ├── 12-twelfth-question.md
+│   ├── 13-CONSTRUCTION-BRIEF-ARTIFACT-GRAMMAR.md
+│   ├── 13-HANDOFF-CURRENT 2.md
+│   ├── 13-thirteenth-answer.md
+│   ├── 13-thirteenth-question.md
+│   ├── 14-ARTIFACT-GRAMMAR.md
+│   ├── 14-fourteenth-answer.md
+│   ├── 14-fourteenth-question.md
+│   ├── 14-HANDOFF-CURRENT.md
+│   ├── 14-LAYER-LAW.md
+│   ├── 15-CONSTRUCTION-BRIEF-NAMING-AND-ADDRESSING.md
+│   ├── 15-fifteenth-answer.md
+│   ├── 15-fifteenth-question.md
+│   ├── 15-HANDOFF-CURRENT.md
+│   ├── 16-HANDOFF-CURRENT.md
+│   ├── 16-NAMING-AND-ADDRESSING.md
+│   ├── 16-sixteenth-answer.md
+│   ├── 16-sixteenth-question.md
+│   ├── 17-CONSTRUCTION-BRIEF-SCAFFOLD-GRAMMAR.md
+│   ├── 17-HANDOFF-CURRENT.md
+│   ├── 17-seventeenth-answer.md
+│   ├── 17-seventeenth-question.md
+│   ├── 18-eighteenth-answer.md
+│   ├── 18-eighteenth-question.md
+│   ├── 18-HANDOFF-CURRENT.md
+│   ├── 18-SCAFFOLD-GRAMMAR.md
+│   ├── 19-CONSTRUCTION-BRIEF-DELTA-METABOLISM.md
+│   ├── 19-HANDOFF-CURRENT.md
+│   ├── 19-ninteenth-answer.md
+│   ├── 19-ninteenth-question.md
+│   ├── 2-second-answer.md
+│   ├── 2-second-question.md
+│   ├── 20-DELTA-METABOLISM.md
+│   ├── 20-HANDOFF-CURRENT.md
+│   ├── 20-twentieth-answer.md
+│   ├── 20-twentieth-question.md
+│   ├── 21-CONSTRUCTION-BRIEF-METHOD-ENGINE.md
+│   ├── 21-HANDOFF-CURRENT.md
+│   ├── 21-twentyfirst-answer 2.md
+│   ├── 21-twentyfirst-question.md
+│   ├── 22-HANDOFF-CURRENT.md
+│   ├── 22-METHOD-ENGINE.md
+│   ├── 22-twentysecond-answer.md
+│   ├── 22-twentysecond-question.md
+│   ├── 23-CONSTRUCTION-BRIEF-READINESS-MATRIX.md
+│   ├── 23-HANDOFF-CURRENT.md
+│   ├── 23-twentythird-answer.md
+│   ├── 23-twentythird-question.md
+│   ├── 24-HANDOFF-CURRENT.md
+│   ├── 24-READINESS-MATRIX.md
+│   ├── 24-twentyfourth-answer.md
+│   ├── 24-twentyfourth-question.md
+│   ├── 25-CONSTRUCTION-BRIEF-AUTHORITY-LATTICE.md
+│   ├── 25-HANDOFF-CURRENT.md
+│   ├── 25-twentyfifth-answer.md
+│   ├── 25-twentyfifth-question.md
+│   ├── 26-AUTHORITY-LATTICE.md
+│   ├── 26-HANDOFF-CURRENT.md
+│   ├── 26-twentysixth-answer.md
+│   ├── 26-twentysixth-question.md
+│   ├── 27-HANDOFF-CURRENT.md
+│   ├── 27-PHASE-TRANSITION-1-TO-2.md
+│   ├── 27-twentyseventh-answer.md
+│   ├── 27-twentyseventh-question.md
+│   ├── 28-ARTIFACT-GRAMMAR.md
+│   ├── 28-CHATGPT_SUCCESSOR_THREAD_PACKET.md
+│   ├── 28-CORPUS-AUDIT-2026-03-13.md
+│   ├── 28-REINIT-PROMPT-SCHEMA-3.md
+│   ├── 28-twentyeighth-answer.md
+│   ├── 28-twentyeighth-question.md
+│   ├── 3-third-answer.md
+│   ├── 3-third-question.md
+│   ├── 4-fourth-answer.md
+│   ├── 4-fourth-question.md
+│   ├── 5-fifth-answer.md
+│   ├── 5-fifth-question.md
+│   ├── 6-sixth-answer.md
+│   ├── 6-sixth-question.md
+│   ├── 7-seventh-answer.md
+│   ├── 7-seventh-question.md
+│   ├── 8-eighth-answer.md
+│   ├── 8-eighth-question.md
+│   ├── 9-ninth-answer.md
+│   └── 9-ninth-question.md
+└── provenance
+    ├── 0-holistic
+    │   ├── ARCHITECTURE.md
+    │   ├── CANONICAL-CI-PROVENANCE-REPORT.md
+    │   ├── cli-tools.md
+    │   ├── definitive_monorepo_spec.md
+    │   ├── EXOCORTEX-TELEOLOGY-REGISTRY-CC90.md
+    │   ├── grok-live-sensing.md
+    │   ├── grok-monorepo-directive.md
+    │   ├── harness-taxonomy.md
+    │   ├── PROMPT-VANGUARD-MEMORY_ARCHITECTURE_ENGINEERING.md
+    │   ├── SYNCRESCENDENCE_FEDERAL_STACK_AND_TELEOLOGY_v1.md
+    │   ├── SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md
+    │   ├── SYNCRESCENDENCE-ONTOLOGY-HOLISTIC-REPORT.md
+    │   ├── SYNCRESCENDENCE-OPERATIONAL-TAXONOMY.md
+    │   └── SYNCRESCENDENCE-STRATEGIC-VISION.md
+    ├── 1-harness
+    │   ├── directive-grok-aider.md
+    │   ├── directive-grok-claude_code.md
+    │   ├── directive-grok-codex.md
+    │   ├── directive-grok-gemini_cli.md
+    │   ├── directive-grok-openclaw.md
+    │   ├── directive-grok-opencode.md
+    │   ├── directive-grok-openhands.md
+    │   ├── report-grok-aider.md
+    │   ├── report-grok-claude_code.md
+    │   ├── report-grok-codex.md
+    │   ├── report-grok-gemini_cli.md
+    │   ├── report-grok-openclaw.md
+    │   ├── report-grok-opencode.md
+    │   └── report-grok-openhands.md
+    ├── 2-exocortex
+    │   ├── report-airtable.md
+    │   ├── report-basecamp.md
+    │   ├── report-clickup.md
+    │   ├── report-coda.md
+    │   ├── report-confluence.md
+    │   ├── report-discord.md
+    │   ├── report-jira.md
+    │   ├── report-linear.md
+    │   ├── report-notion.md
+    │   ├── report-obsidian.md
+    │   ├── report-project_management.md
+    │   ├── report-slack.md
+    │   ├── report-telegram.md
+    │   ├── report-ticktick.md
+    │   └── report-todoist.md
+    ├── 3-live_ledger
+    │   ├── AVATARIZATION-AND-CONSTELLATION-TELEOLOGY-PRECIS.md
+    │   ├── exocortex.md
+    │   ├── grok_prompt-syncrescendence_taxonomy.md
+    │   ├── grok_response-syncrescendence_taxonomy.md
+    │   └── LIVE-LEDGER-ARCHITECTURE-PRECIS.md
+    ├── 4-prompting_scaffold
+    │   ├── canonical
+    │   │   ├── custom_instructions-chatgpt.md
+    │   │   ├── custom_instructions-claude.md
+    │   │   ├── custom_instructions-gemini_ai_studio.md
+    │   │   ├── custom_instructions-gemini_web_app.md
+    │   │   ├── custom_instructions-grok-agents.md
+    │   │   ├── custom_instructions-grok.md
+    │   │   ├── prompting_guide-chatgpt-5.4.md
+    │   │   ├── prompting_guide-claude-4.6.md
+    │   │   ├── prompting_guide-gemini-3.1.md
+    │   │   └── prompting_guide-grok-4.20.md
+    │   ├── chatgpt_convo.md
+    │   ├── claude prompt.md
+    │   ├── custom_instructions-claude-patches.md
+    │   ├── gemini.md
+    │   ├── grok_prompt-agent_architecture_report.md
+    │   ├── grok_prompt-claude_prompting_guide.md
+    │   ├── grok-4.20-config-guide.md
+    │   ├── grok.md
+    │   └── PROMPT-ENGINEERING-STRUCTURAL-PRIMITIVES.md
+    └── 5-repo_state
+        ├── PROMPT-GROK-LIVE_LEDGER_SENSING.md
+        ├── PROMPT-ORACLE-CONFIG-CONSENSUS-ARCHITECTURE.md
+        ├── PROMPT-ORACLE-MEMORY_ARCHITECTURE_SENSING.md
+        ├── PROMPT-ORACLE-SCAFFOLD_CONSENSUS.md
+        ├── PROMPT-ORACLE-SYNTHESIS-RECONCILIATION.md
+        ├── RESPONSE-GROK-LIVE_LEDGER_SENSING .md
+        ├── RESPONSE-ORACLE-CONFIG-CONSENSUS-ARCHITECTURE .md
+        ├── RESPONSE-ORACLE-MEMORY_ARCHITECTURE_SENSING .md
+        ├── RESPONSE-ORACLE-SCAFFOLD_CONSENSUS .md
+        └── RESPONSE-ORACLE-SYNTHESIS-RECONCILIATION.md

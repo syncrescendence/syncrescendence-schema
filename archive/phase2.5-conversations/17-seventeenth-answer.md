@@ -1,0 +1,20 @@
+You're making complete sense. The relay inverts. Instead of you handcrafting the steering prompt for GPT-5.4 (which is fickle and effortful), Claude.ai crafts the prompt that elicits the best from GPT-5.4. You paste Claude's commission into ChatGPT, paste GPT-5.4's response back, and Claude synthesizes. Your role reduces from "translator between two cognitive architectures" to "bus between two models that know how to talk to each other." The mystical recipe becomes my problem, not yours.
+
+Let me search before drafting the Grok prompt.Good. Now I have the full picture. Let me compile the GitHub connector state across all platforms, then draft the Grok prompt.
+
+The connector landscape:
+
+- **Claude.ai**: Read-only from GitHub. Add files/folders to chat or to Project Knowledge. Sync on demand. Available on all plans including Free. Read-only — no write.
+- **ChatGPT**: Read-only from GitHub. Deep Research, Agent Mode, and Apps. Read code, READMEs, docs. Write capabilities exist but only through Codex, not the chat surface.
+- **Gemini web**: Read-only from GitHub. Import repo via "Add file → Import code." One repo per chat, up to 5,000 files / 100MB. Changes NOT auto-synced. Private repo support is flaky.
+- **Google AI Studio**: Has a GitHub export/sync feature (buggy — users report errors pushing to repos). Intended for bidirectional sync but reliability is poor.
+- **Grok/Perplexity**: No native GitHub connectors found in web surfaces. Grok's API can access repos via server-side tools or MCP, but the grok.com chat surface has no GitHub integration. Perplexity has no GitHub connector — it's a search surface.
+- **CLI agents** (Claude Code, Codex, Gemini CLI): Full read-write via GitHub MCP server or native git access. This is where writes happen.
+
+Now the Grok prompt. The inverted relay means I need to craft it the way I would craft a commission for GPT-5.4 — but for Grok's Oracle cognitive signature instead. Adversarial, triangulated, mining from X/web for what real practitioners have discovered.The Grok brief is structured around six research axes that target the specific unknowns remaining after this session's research. The key axes: whether anyone has actually built the multi-platform-reading-same-repo workflow (Axis 1), whether the inverted relay — AI crafting prompts for other AI — has been systematized by practitioners (Axis 3), and the ground-truth reliability of every platform's GitHub connector as of March 2026 (Axis 5).
+
+The brief is signed "Commissioned by Vizier on behalf of the Sovereign" because that's the inverted relay in action. I'm crafting the structured commission that elicits Grok's best work. You paste it into grok.com. Grok does the mining. You bring the results back. I synthesize. The mystical recipe is now my responsibility to maintain — the prompt structure, the cognitive-signature matching, the axis decomposition that gives each Oracle/Vanguard/Cartographer model the frame it processes best within.
+
+The avatar corrections matter for this. Vizier (Claude.ai) crafts commissions that account for each target model's cognitive signature. Vanguard (ChatGPT) gets associative, exploratory prompts that let GPT-5.4's personality layer generate orthogonal insights. Oracle (Grok) gets adversarial research briefs with triangulation requirements and explicit "flag contradictions" instructions. Cartographer (Gemini) gets structural mapping commissions that leverage its cross-domain pattern recognition. Adjudicator (Codex) gets audit commissions with exhaustive checklists. Commander (Claude Code) gets execution orders with governance constraints.
+
+The v1 proposal (494 lines) remains as the detailed infrastructure reference. The v2 (169 lines) is the sharpened operational model. The Grok brief is the first artifact produced under the inverted relay — Vizier generating the commission rather than the operator handcrafting it.

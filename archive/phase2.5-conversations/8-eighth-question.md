@@ -1,0 +1,3 @@
+i have $19.83 in the xAI developer console, completely available to use. But we should probably strategically tokenomics it, like leveraging it for that last mile, coming up with the most hyper-efficaciously context-injected prompting, or just try to mine directly from the source? not sure how that works. Let's search some more. 
+
+As for section 3, can you expand each layer, don't change anything, but append how we might/ought to configure each surface.

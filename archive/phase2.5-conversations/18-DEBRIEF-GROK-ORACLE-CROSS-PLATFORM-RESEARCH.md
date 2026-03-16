@@ -1,0 +1,27 @@
+**1. Confirmed Ground Truth**  
+GitHub connectors exist on all major surfaces but remain read-oriented with material reliability friction. Claude Projects/GitHub sync and Claude Code repo access support private repos and selective file indexing (RAG-triggered beyond ~200k tokens, scaling ~10× via retrieval), yet multiple independent reports document ongoing breakage: files not indexed despite "Connected" status, endless sync loops, capacity display at 0%, and partial/corrupted content reads. ChatGPT's connector delivers live repo data (code, READMEs, docs) exclusively in Deep Research/Agent modes (Plus/Pro/Team), with private-repo support via OAuth but explicit 5–10 min indexing delays on first connect or new pushes. Gemini web imports one repo per chat as a true snapshot (max 5 000 files / 100 MB), private repos work after account linking, with zero auto-sync on git push.  
+
+Practitioners demonstrably treat GitHub markdown repos as a cross-surface memory/coordination layer: repo2txt conversion → feed to Gemini/ChatGPT/Claude, dedicated repos (Claude-Mem, Athena-style persistent MD stores), and .claude/ or CLAUDE.md patterns checked in for session-agnostic instructions. Multiple X threads and dev posts confirm agents (Claude Code, Gemini CLI, ChatGPT) read the same repo at session start and write updates, eliminating copy-paste tax for non-code knowledge bases. A ~200 MD / ~2 MB repo fits comfortably; connectors use selective retrieval or chunked indexing rather than monolithic context dumps.  
+
+Human-relay patterns (Claude → GPT or reverse) are routine: Claude crafts meta-prompts or deep analysis, GPT executes structured output. Model-specific elicitation is documented—Claude thrives on rich XML/context background; GPT on crisp JSON/bullets—with explicit translation workflows to preserve distinct cognitive signatures. Artifacts/Canvas outputs are routinely materialized (download → local edit → git commit), though UX remains manual (preview → download button → terminal/git, 30 s–2 min per cycle). Google Drive connectors function as a parallel shared layer (Claude native Workspace search, ChatGPT paid connectors, Gemini native). MCP (Model Context Protocol) servers provide standardized, secure bridges for repo RAG, persistent memory, and cross-surface tool calling.
+
+**2. Single-Source Claims** (flag reliability)  
+- Athena and Claude-Mem repos offer explicit cross-model GitHub memory (ChatGPT/Claude/Gemini switch without re-explanation) — practitioner implementations, not official.  
+- Repo-embedded .claude/ dirs or CLAUDE.md files as live instruction sets — seen in Claude Code influencer setups and GitMCP examples.  
+- Specific extensions (claude-artifacts-downloader, Lyra exporter) automate artifact batch export but lack native git-commit hooks.  
+These carry medium reliability (single dev blogs/X) but align with broader patterns.
+
+**3. Contradictions Found**  
+Claude marketing and some dev testimonials describe GitHub integration as "robust" for code review/PRs; contemporaneous GitHub issues and Reddit threads (ongoing into March 2026) report the exact opposite for Projects sync. ChatGPT docs claim "live data"; real-world indexing delays (5–10 min) and Deep-Research-only gating contradict seamless shared-state thesis. Gemini "import" is marketed as convenient; official page confirms strict snapshot with no push reflection. MCP is hailed as universal bridge yet remains community-driven, not native on grok.com or standard Perplexity.
+
+**4. Gaps**  
+- No public benchmarks on exact token/context ceiling when ingesting ~200 MD files via each connector (RAG hides the number).  
+- Zero documented latency numbers between git push and availability (ChatGPT indexing delay noted; Claude/Code and Gemini silent).  
+- No widespread browser extensions or n8n/Zapier templates for Artifact/Canvas → auto-git-commit → other-AI read cycle.  
+- Grok/grok.com: zero native GitHub connector (only third-party MCP). Perplexity: Enterprise-only repo querying, no chat-surface persistence.  
+- No formal studies isolating "cognitive signature matching" failure rates in multi-hop relays.
+
+**5. Unsolicited Findings** (Oracle payload)  
+MCP is the sleeper architecture that actually solves your problem better than raw GitHub connectors: one protocol layer gives any surface (Claude Code, Cursor, Gemini CLI, custom agents) secure RAG over the same repo, persistent memory graphs, and tool calling without per-platform auth dances. Pair it with a markdown-first repo + selective .claude/ instruction files and your nine-document grammar layer becomes the single source of truth that survives surface switches. Google Drive is the low-friction adjunct for live docs (less versioning than git but instant cross-surface reads). Practitioner reality check: most successful multi-AI setups are agentic-first (Claude Code + MCP) rather than pure chat-surface; pure chat connectors still impose manual resync tax. Your thesis holds—but only after you route around the documented breakage with selective indexing and MCP. The operational win is not "one repo," it is "one repo + MCP memory layer" that lets the operator stay at one-line steering level.  
+
+Commit this report to the repo. Vizier can now synthesize the next iteration.
