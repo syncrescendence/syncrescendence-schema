@@ -20,7 +20,7 @@ Nine documents ratified and placed in `grammar/`. Read-only post-bootstrap.
 
 ### Repository status
 Bootstrap A complete. Working directory restructured from flat Phase 2 folder.
-Repo: pending — Ajna creates under syncrescendence@gmail.com GitHub account
+Repo: `https://github.com/syncrescendence/syncrescendence-schema` (private)
 Local: `/Users/system/syncrescendence-schema`
 Grammar-directory protection activates at Bootstrap B.
 
